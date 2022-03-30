@@ -1,7 +1,4 @@
 
-国际化可以使web站点或者app在不同的国家或者地区使用。可以国际化的内容有文本，日期、时间和数字的格式，还有货币等。目前市场上流行的react国际化框架主要有react-i18n和react-intl，本文主要以文本国际化来介绍两种方案的入门用法及对比。
-
-
 ## React-i18next
 ### 介绍
 react-i18next是基于i18next的一款强大的国际化框架，可以用于react和react-native应用，以下是react-i18next一些特点：
@@ -326,12 +323,10 @@ export default class Index extends React.Component {
 - React-i18next的语言资源文件为json格式，react-intl为js格式，同时支持变量传值；
 - React-i18next有很多插件可以使用比如检测当前系统语言，从后端获取数据等；
 - React-intl除文本翻译外还提供日期、时间和金额的国际化支持；
-
+- React-i18next的npm周下载量1682771次， 包大小345kB;React-intl的npm周下载量1,008,378次，包大小为230 kB。
 
 #### 参考文档
 - https://react.i18next.com/
 - https://formatjs.io/
 - https://blog.bitsrc.io/react-i18n-how-to-internationalize-your-react-application-3a12bba5a980
 
-#### Demo 地址
-https://github.com/freezing2616/react-i18n-demo
